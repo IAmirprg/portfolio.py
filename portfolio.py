@@ -3,6 +3,7 @@ import streamlit as st
 
 st.set_page_config(layout="wide")
 
+
 col1, empty_col, col2 = st.columns([1.5, 0.5, 1.5])
 with col1:
     st.image("images/amir.png")
